@@ -97,7 +97,8 @@ export default function HomePage() {
               </div>
 
               {/* planner */}
-              <div className="grid grid-cols-12 gap-4">
+              <div className="grid grid-cols-1 gap-4 lg:grid-cols-12">
+                {' '}
                 {/* sidebar */}
                 <div className="col-span-3 rounded-2xl border border-white/10 bg-[#0F172A] p-4">
                   <div className="space-y-4">
@@ -117,7 +118,6 @@ export default function HomePage() {
                     </div>
                   </div>
                 </div>
-
                 {/* canvas */}
                 <div className="col-span-6 rounded-2xl border border-white/10 bg-[#111827] p-4">
                   <div className="relative h-[420px] rounded-2xl bg-[#0B1120] p-4">
@@ -178,7 +178,6 @@ export default function HomePage() {
                     </motion.div>
                   </div>
                 </div>
-
                 {/* ai sidebar */}
                 <div className="col-span-3 rounded-2xl border border-white/10 bg-[#0F172A] p-4">
                   <div className="mb-4 flex items-center gap-2">
