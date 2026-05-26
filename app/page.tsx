@@ -1,5 +1,6 @@
 'use client'
 
+import Footer from '@/components/layout/Footer'
 import { motion } from 'framer-motion'
 import { ArrowRight, Building2, Sparkles, Upload, Wand2, Ruler, Layers3 } from 'lucide-react'
 
@@ -249,6 +250,7 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+      <Footer />
     </main>
   )
 }
